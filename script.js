@@ -29,7 +29,7 @@ const apiKey = "ce96101921d1177dc32cf76b3739dfc7";
             }
             else if(data.weather[0].main == "Clear"){
                 weatherIcon.src = "images/clear.png"
-"
+
             }   
             else if(data.weather[0].main == "Drizzle"){
                 weatherIcon.src = "images/drizzle.png"
